@@ -34,10 +34,10 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
   
-  @Test
-  public void checkErwin() {
-	// TODO Auto-generated method stub
-	  System.out.println("This is just testing the azure pipelines");
-	assertTrue("Not True", false);
-  }
+//  @Test
+//  public void checkErwin() {
+//	// TODO Auto-generated method stub
+//	System.out.println("This is just testing the azure pipelines");
+//	assertTrue("Not True", false);
+//  }
 }
