@@ -28,3 +28,9 @@ steps:
     TargetFolder: '$(build.artifactstagingdirectory)'
     CleanTargetFolder: true
     retryCount: '3'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'webapp.war'
+    publishLocation: 'Container'
